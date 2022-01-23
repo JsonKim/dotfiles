@@ -1,0 +1,12 @@
+{
+    "languageserver": {
+        "rescript": {
+            "enable": true,
+            "module": "~/.vim/plugged/vim-rescript/server/out/server.js",
+            "args": ["--node-ipc"],
+            "filetypes": ["rescript"],
+            "rootPatterns": ["bsconfig.json"]
+        }
+    },
+    "tailwindCSS.jsLanguages": ["javascript", "javascriptreact", "reason", "typescriptreact", "rescript"]
+}
